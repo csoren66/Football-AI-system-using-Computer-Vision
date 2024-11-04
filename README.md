@@ -1,8 +1,4 @@
-Here's a GitHub README template based on the steps you've outlined, with placeholders for a demo video link and other relevant project details:
-
----
-
-# Sports Drill Analysis using Pose Estimation and Object Detection
+# Football-Drill-Video-Analysis-System
 
 This project provides an automated solution for analyzing sports drills, focusing on movement patterns, repetition counts, intensity, and ball rotation direction. By utilizing advanced computer vision techniques and machine learning models, this project aims to deliver detailed insights into player performance.
 
@@ -25,7 +21,7 @@ This project implements a pipeline to analyze drills using pose estimation and b
 5. Tracking ball rotation.
 
 ## Demo
-[Watch the Demo](#) *(Insert demo video link here)*
+[Watch the Demo](#) *(https://drive.google.com/drive/folders/1xuibJqVU6b82dNTVjYdfeevOC4zDea2f)*
 
 ## Features
 - **Pose Estimation and Pattern Recognition:** Classifies drills by recognizing the player's movement pattern.
@@ -37,8 +33,8 @@ This project implements a pipeline to analyze drills using pose estimation and b
 ## Setup and Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sports-drill-analysis.git
-    cd sports-drill-analysis
+    git clone https://github.com/csoren66/Football-Drill-Video-Analysis-System.git
+    cd Football-Drill-Video-Analysis-System
     ```
 2. Install required dependencies:
     ```bash
@@ -49,7 +45,7 @@ This project implements a pipeline to analyze drills using pose estimation and b
 ## Usage
 To run the drill analysis:
 ```bash
-python main.py --input data/Squares.mp4 --output results/Annotated_Squares.mp4
+python football_drill_analyzer.py
 ```
 
 ## Methodology
@@ -81,7 +77,3 @@ The solution provides comprehensive metrics on player performance, including rep
 
 ## License
 This project is licensed under the MIT License.
-
----
-
-This README will provide users and collaborators with clear instructions on how to set up, use, and understand the project's capabilities.
